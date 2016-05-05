@@ -34,8 +34,13 @@ body {
 		font-size: 20px;
 		font-weight: bold;
 	}
-	#begin{
-
+	.starttext{
+		padding: 25px;
+		text-align: center;
+		margin-top:75px;
+	}
+	#time-left{
+		text-align: center;
 	}
 		
 
@@ -85,7 +90,9 @@ body {
     	{
     		$('#triviaview').show();
     		enableQuestions();
-    		$('#begin').hide();
+    		// $('#begin').hide();
+    		$('.starttext').hide();
+
 
     	}
     	function disableQuestions()
@@ -215,8 +222,13 @@ body {
 <div class="container">
 		<!-- start page -->
 		<div class="startpage">
+			<div class="starttext">
+			<h2>Ready to Take the Space Quiz? <br> Click Start Button</h2>
 			<button id="begin" onclick="run()">START</button><br>
-			<span id="time-left"></span>
+			</div>
+			<div class="timer">
+			<h3 id="time-left"></h3>
+			</div>
 		</div>
 
  
