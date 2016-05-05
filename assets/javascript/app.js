@@ -1,5 +1,5 @@
 
-		var timer = 10;
+		var timer = 61;
 		var counter = null;
 		var questions = ["question1","question2","question3","question4","question5"];
 		var answers = ["jupiter","sputnik","mars","titan","venus"];
